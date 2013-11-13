@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="de.melchernetz.energy.ui.components.SimulationControls">
+  <grid id="27dc6" binding="root" layout-manager="FormLayout">
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:9dlu:noGrow"/>
+    <rowspec value="center:17px:noGrow"/>
+    <rowspec value="top:d:noGrow"/>
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:d:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:d:noGrow"/>
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:d:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:d:noGrow"/>
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:d:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:8dlu:noGrow"/>
+    <rowspec value="center:14px:noGrow"/>
+    <rowspec value="top:2dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="222" height="347"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="Simulations-Steuerung" title-justification="1">
+      <font/>
+    </border>
+    <children>
+      <component id="8125e" class="javax.swing.JButton" binding="btnToggleSimulationState">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <text value="Simulation starten"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="d73bd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="&lt;html&gt;&lt;u&gt;Geschwindigkeit&lt;/u&gt;&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="f21a4" class="javax.swing.JRadioButton" binding="simSpeed0">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <actionCommand value="0"/>
+          <text value="Pause"/>
+        </properties>
+      </component>
+      <component id="33d2c" class="javax.swing.JRadioButton" binding="simSpeed2">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <actionCommand value="2"/>
+          <text value="x2"/>
+        </properties>
+      </component>
+      <component id="ed536" class="javax.swing.JRadioButton" binding="simSpeed60">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <actionCommand value="60"/>
+          <text value="x60"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="bef38" class="javax.swing.JRadioButton" binding="simSpeed1800">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <actionCommand value="1800"/>
+          <text value="x1800"/>
+        </properties>
+      </component>
+      <component id="2c615" class="javax.swing.JRadioButton" binding="simSpeed3600">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <actionCommand value="3600"/>
+          <text value="x3600"/>
+        </properties>
+      </component>
+      <component id="a58bd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="&lt;html&gt;&lt;u&gt;Simulationsschritte&lt;/u&gt;&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="52ba5" class="javax.swing.JLabel" binding="lblSimSteps">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="10"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="44b0f" class="javax.swing.JRadioButton" binding="simSpeed1">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <actionCommand value="1"/>
+          <selected value="true"/>
+          <text value="Echtzeit"/>
+        </properties>
+      </component>
+      <component id="be5f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="1s"/>
+        </properties>
+      </component>
+      <component id="2b14c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="2s"/>
+        </properties>
+      </component>
+      <component id="c3ce" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="1m"/>
+        </properties>
+      </component>
+      <component id="dc434" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="30m"/>
+        </properties>
+      </component>
+      <component id="12a45" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="1h"/>
+        </properties>
+      </component>
+      <component id="f80ca" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="SimZeit / s"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="btnGrpSimSpeed">
+      <member id="bef38"/>
+      <member id="bef38"/>
+      <member id="ed536"/>
+      <member id="2c615"/>
+      <member id="f21a4"/>
+      <member id="33d2c"/>
+      <member id="44b0f"/>
+    </group>
+  </buttonGroups>
+</form>
